@@ -32,7 +32,7 @@ function onGeoOk(position) {
 }
 
 function onGeoError() {
-  console("Can't find your location.");
+  alert("Can't find your location.");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
